@@ -1,0 +1,17 @@
+{
+	"name": "IntegrationRuntime",
+	"properties": {
+		"type": "Managed",
+		"typeProperties": {
+			"computeProperties": {
+				"location": "East US 2",
+				"dataFlowProperties": {
+					"computeType": "MemoryOptimized",
+					"coreCount": 16,
+					"timeToLive": 0,
+					"cleanup": false
+				}
+			}
+		}
+	}
+}
